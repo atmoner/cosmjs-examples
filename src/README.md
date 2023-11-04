@@ -3,7 +3,7 @@ home: true
 title: Home
 heroImage: /logo-vertical-light.png
 heroText: CosmJs Examples
-tagline: 🛠️ Javascript example for <a href='https://github.com/cosmos/cosmjs#readme' target="_blank">cosmJs</a> cosmos sdk 
+tagline: ✨ Javascript example for <a href='https://github.com/cosmos/cosmjs#readme' target="_blank">cosmJs</a> cosmos sdk 
 
 copyright: false 
 ---

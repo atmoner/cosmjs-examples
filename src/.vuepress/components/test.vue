@@ -1,7 +1,9 @@
 <template> 
   <div>
     <button class="button" @click="getBlockNow()">
-      <i class="fa fa-play" aria-hidden="true"></i> Try it
+      <i v-if="!inLoading" class="fa fa-play" aria-hidden="true"></i> 
+      <span v-if="!inLoading"> Try it</span>
+      <i v-if="inLoading" class="fa fa-spinner fa-spin" style="font-size:24px"></i>
     </button>
   </div>  
   <div v-if="loaded" class="language-javascript" data-ext="json">
@@ -19,7 +21,8 @@ export default {
   data() {
     return {
       getBlock: '',
-      loaded: false
+      loaded: false,
+      inLoading: false
     }
   },
   async mounted() {
@@ -27,14 +30,17 @@ export default {
   },
   methods: {
     async getBlockNow() {
+      this.inLoading = true
       try {
         const client = await StargateClient.connect('https://rpc.cosmos.directory/cosmoshub')
         const getBlock = await client.getBlock()
         this.getBlock = getBlock.header
         this.loaded = true
+        this.inLoading = false
       } catch (error) {
         this.getBlock = "Error! Try again"
         this.loaded = true
+        this.inLoading = false
       }
  
     },
