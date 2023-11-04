@@ -3,7 +3,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://atmoner.github.io/cosmjs-examples",
   author: {
     name: "atmon3r",
     url: "https://twitter.com/atmon3r",
