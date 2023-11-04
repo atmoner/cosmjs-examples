@@ -43,7 +43,7 @@ export default {
         this.getClient = client
         this.loaded = true
         this.inLoading = false
-        client.disconnect();
+        client.disconnect()
       } catch (error) {
         this.getClient = "Error! Try again"
         this.loaded = true

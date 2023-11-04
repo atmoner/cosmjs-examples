@@ -36,12 +36,12 @@ export default {
       const wallet = await DirectSecp256k1HdWallet.fromMnemonic(mnemonic.secret.data)
       const client = await SigningStargateClient.connectWithSigner('https://rpc.cosmos.directory/cosmoshub', wallet)
 
-      const accounts = await wallet.getAccounts();
+      const accounts = await wallet.getAccounts()
        
       this.getSign = accounts
       this.loaded = true
       this.inLoading = false
-      client.disconnect();
+      client.disconnect()
     },
     closeResulte() {
       this.loaded = false
