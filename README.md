@@ -2,9 +2,6 @@
 
 ✨ Javascript example for cosmJs cosmos sdk
 
-
-## Screenshots
-
 ![App Screenshot](https://i.imgur.com/WikPlI6.png)
 
 
