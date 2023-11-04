@@ -1,4 +1,4 @@
-import{_ as r}from"./plugin-vue_export-helper-c27b6911.js";import{r as c,o as u,c as d,b as n,d as s,a,w as t,e as i}from"./app-44ac1a30.js";const k={},m=i(`<h2 id="install-cosmjs" tabindex="-1"><a class="header-anchor" href="#install-cosmjs" aria-hidden="true">#</a> Install cosmJs</h2><p>Create nodejs projet</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token function">mkdir</span> cosmos-projet
+import{_ as r}from"./plugin-vue_export-helper-c27b6911.js";import{r as c,o as u,c as d,b as n,d as s,a,w as t,e as i}from"./app-716cd12c.js";const k={},m=i(`<h2 id="install-cosmjs" tabindex="-1"><a class="header-anchor" href="#install-cosmjs" aria-hidden="true">#</a> Install cosmJs</h2><p>Create nodejs projet</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token function">mkdir</span> cosmos-projet
 <span class="token builtin class-name">cd</span> cosmos-projet
 <span class="token function">yarn</span> init <span class="token parameter variable">-y</span>
 <span class="token function">touch</span> app.js
