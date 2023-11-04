@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://atmoner.github.io/cosmjs-examples/sitemap.xml
+Sitemap: https://atmoner.github.io/cosmjs-examples/cosmjs-examples/sitemap.xml
