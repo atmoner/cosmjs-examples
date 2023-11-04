@@ -10,7 +10,7 @@ export default hopeTheme({
   },
   iconAssets: "fontawesome-with-brands",
   logo: "/logo-vertical-light.png",
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "atmoner/cosmjs-examples",
   docsDir: "src",
   navbar,
   sidebar,
