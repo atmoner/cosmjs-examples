@@ -32,7 +32,6 @@ npm install @cosmjs/stargate @cosmjs/proto-signing
 
 ```js
 import { StargateClient } from "@cosmjs/stargate"
-const client = await StargateClient.connect('https://rpc.cosmos.directory/cosmoshub')
 
 try {
   const client = await StargateClient.connect('https://rpc.cosmos.directory/cosmoshub')
