@@ -41,6 +41,7 @@ export default {
       this.getSign = accounts
       this.loaded = true
       this.inLoading = false
+      client.disconnect();
     },
     closeResulte() {
       this.loaded = false

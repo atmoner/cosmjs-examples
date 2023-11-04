@@ -37,6 +37,7 @@ export default {
         this.getBlock = getBlock.header
         this.loaded = true
         this.inLoading = false
+        client.disconnect();
       } catch (error) {
         this.getBlock = "Error! Try again"
         this.loaded = true
