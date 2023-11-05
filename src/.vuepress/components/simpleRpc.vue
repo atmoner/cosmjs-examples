@@ -30,6 +30,7 @@ export default {
   },
   methods: {
     async getBlockNow() {
+      this.loaded = false
       this.inLoading = true
       try {
         const client = await StargateClient.connect('https://rpc.cosmos.directory/cosmoshub')

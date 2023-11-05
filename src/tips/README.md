@@ -1,12 +1,9 @@
 ---
-title: Bank tx
-icon: file
+home: false
+title: Tips and trick  
 author: atmon3r
-copyright: false 
-order: 1
+copyright: false
 ---
-
-# Bank tx 
 
 ::: info
 This page will be completed soon

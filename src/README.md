@@ -42,7 +42,7 @@ try {
   console.log("Error! Try again")
 }
 ```
-<test />
+<simpleRpc />
 
 ### Simple get signer
 

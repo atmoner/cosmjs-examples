@@ -31,6 +31,7 @@ export default {
   },
   methods: {
     async getSignNow() {
+      this.loaded = false
       this.inLoading = true
       const mnemonic = await DirectSecp256k1HdWallet.generate(12) 
       const wallet = await DirectSecp256k1HdWallet.fromMnemonic(mnemonic.secret.data)

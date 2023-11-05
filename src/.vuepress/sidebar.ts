@@ -23,6 +23,13 @@ export default sidebar({
       prefix: "broadcast/",
       link: "broadcast/",
       children: "structure",
+    },
+    {
+      text: "Tips and tricks",
+      icon: "book",
+      prefix: "tips/",
+      link: "tips/",
+      children: "structure",
     }
   ],
 });

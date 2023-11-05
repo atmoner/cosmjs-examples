@@ -28,6 +28,7 @@ export default {
   },
   methods: {
     async getClientNow() {
+      this.loaded = false
       this.inLoading = true
       try {
         const mnemonic = await DirectSecp256k1HdWallet.generate(12) 
