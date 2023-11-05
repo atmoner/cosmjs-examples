@@ -6,7 +6,6 @@ export default navbar([
   "/query/", 
   {
     text: "Broadcast examples",
-    icon: "laptop-code",
     prefix: "broadcast/",
     link: "broadcast/", 
   },
