@@ -4,5 +4,8 @@ icon: file
 author: atmon3r
 copyright: false 
 ---
-# Bank tx 
- 
+# Staking tx 
+
+::: info
+This page will be completed soon
+:::

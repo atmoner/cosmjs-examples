@@ -6,4 +6,7 @@ copyright: false
 ---
 
 # Feegrant tx 
- 
+
+::: info
+This page will be completed soon
+:::

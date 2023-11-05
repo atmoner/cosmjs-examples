@@ -15,9 +15,11 @@ export default defineUserConfig({
   plugins: [
     registerComponentsPlugin({
       components: {
-        test: path.resolve(__dirname, './components/test.vue'),
+        simpleRpc: path.resolve(__dirname, './components/simpleRpc.vue'),
         simpleSign: path.resolve(__dirname, './components/simpleSign.vue'),
         simpleConnect: path.resolve(__dirname, './components/simpleConnect.vue'),
+        getBlock: path.resolve(__dirname, './components/stargate/getBlock.vue'),
+        getBalance: path.resolve(__dirname, './components/stargate/getBalance.vue'),
       },
     }),
   ]

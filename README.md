@@ -2,7 +2,7 @@
 
 ✨ Javascript example for cosmJs cosmos sdk
 
-![App Screenshot](https://i.imgur.com/WikPlI6.png)
+![CosmJs Examples](https://i.imgur.com/DANsWWJ.png)
 
 
 ## Installation

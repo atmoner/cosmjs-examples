@@ -4,5 +4,6 @@ export default navbar([
   "/",
   "/stargate/",
   "/query/",
-  "/broadcast/" 
+  "/broadcast/",
+  "/tips/" 
 ]);

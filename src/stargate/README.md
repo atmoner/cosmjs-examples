@@ -40,24 +40,27 @@ const client = await StargateClient.connect('https://rpc.cosmos.directory/cosmos
 const getBlock = await client.getBlock()
 console.log(getBlock.header)
 ```
+<getBlock />
 
 ### getBalance() 
 
 ```js
-const getBalance = await client.getBalance('your_address', 'uatom')
+const getBalance = await client.getBalance('cosmos13jawsn574rf3f0u5rhu7e8n6sayx5gkwjvqrkr', 'uatom')
 console.log(getBalance)
 ```
+<getBalance />
+
 
 ### getAllBalances() 
 
 ```js
-const getAllBalances = await client.getAllBalances('your_address')
+const getAllBalances = await client.getAllBalances('cosmos13jawsn574rf3f0u5rhu7e8n6sayx5gkwjvqrkr')
 console.log(getAllBalances)
 ```
 
 ### getBalanceStaked() 
 
 ```js
-const getBalanceStaked = await client.getBalanceStaked('your_address')
+const getBalanceStaked = await client.getBalanceStaked('cosmos13jawsn574rf3f0u5rhu7e8n6sayx5gkwjvqrkr')
 console.log(getBalanceStaked)
 ```

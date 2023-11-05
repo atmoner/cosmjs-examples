@@ -28,6 +28,7 @@ export default {
   },
   methods: {
     async getClientNow() {
+      this.loaded = false
       this.inLoading = true
       try {
         const mnemonic = await DirectSecp256k1HdWallet.generate(12) 
@@ -43,7 +44,7 @@ export default {
         this.getClient = client
         this.loaded = true
         this.inLoading = false
-        client.disconnect();
+        client.disconnect()
       } catch (error) {
         this.getClient = "Error! Try again"
         this.loaded = true
