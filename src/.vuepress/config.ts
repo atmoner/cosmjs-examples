@@ -9,7 +9,7 @@ export default defineUserConfig({
   base: "/cosmjs-examples/",
   lang: "en-US",
   title: "CosmJs examples",
-  description: "A docs demo for vuepress-theme-hope ",
+  description: "CosmJs examples",
 
   theme,
   plugins: [
