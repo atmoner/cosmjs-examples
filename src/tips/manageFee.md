@@ -15,6 +15,7 @@ import {
   calculateFee,
 } from "@cosmjs/stargate";
 
+import { coins } from "@cosmjs/proto-signing";
 
 // 1. Create message 
 const foundMsgType = defaultRegistryTypes.find(
