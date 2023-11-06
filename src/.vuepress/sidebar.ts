@@ -30,6 +30,13 @@ export default sidebar({
       prefix: "tips/",
       link: "tips/",
       children: "structure",
-    }
+    }/* ,
+    {
+      text: "test",
+      icon: "book",
+      prefix: "query-test/",
+      link: "query-test/",
+      children: "structure",
+    } */
   ],
 });
