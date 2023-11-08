@@ -25,18 +25,18 @@ export default sidebar({
       children: "structure",
     },
     {
+      text: "Cosmwasm",
+      icon: "book",
+      prefix: "cosmwasm/",
+      link: "cosmwasm/",
+      children: "structure",
+    },
+    {
       text: "Tips and tricks",
       icon: "book",
       prefix: "tips/",
       link: "tips/",
       children: "structure",
-    }/* ,
-    {
-      text: "test",
-      icon: "book",
-      prefix: "query-test/",
-      link: "query-test/",
-      children: "structure",
-    } */
+    }
   ],
 });

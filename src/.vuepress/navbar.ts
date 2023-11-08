@@ -13,5 +13,10 @@ export default navbar([
     prefix: "broadcast/",
     link: "broadcast/", 
   },
+  {
+    text: "CosmWasm examples",
+    prefix: "cosmwasm/",
+    link: "cosmwasm/", 
+  },
   "/tips/"
 ]);
