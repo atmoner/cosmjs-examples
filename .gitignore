@@ -5,3 +5,5 @@ src/.vuepress/.temp/
 src/.vuepress/dist/
 generate.js
 generate-query.js
+generate-wasm-tx.js
+generate-wasm.js
