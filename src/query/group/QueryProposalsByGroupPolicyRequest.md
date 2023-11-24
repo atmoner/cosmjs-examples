@@ -7,7 +7,7 @@ copyright: false
 
 ::: info
 This doc is generated with 
-- [@cosmjs/stargate](https://www.npmjs.com/package/@cosmjs/stargate): ^0.31.3
+- [@cosmjs/stargate](https://www.npmjs.com/package/@cosmjs/stargate): ^0.32.0
 - [cosmjs-types](https://www.npmjs.com/package/cosmjs-types): ^0.9.0
 :::
    
